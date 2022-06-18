@@ -9,7 +9,7 @@ env:
   PROJECT_ID: ${{ secrets.GKE_PROJECT }}
   GKE_CLUSTER: terry
   GKE_ZONE: europe-central2-a
-  DEPLOYMENT_NAME: terry-production
+  DEPLOYMENT_NAME: webapp
   IMAGE: static-site
 
 jobs:
