@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: webapp
-          image: webapp
+          image: gcr.io/terry-coach-353718/webapp
           ports:
             - containerPort: 3000
           imagePullPolicy: Always
