@@ -1,0 +1,5 @@
+commonLabels:
+    app: webapp
+resources:
+  - ./backend/webapp/webapp-deployment.yaml
+  - ./backend/webapp/webapp-service.yaml
