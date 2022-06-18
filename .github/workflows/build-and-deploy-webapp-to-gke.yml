@@ -10,7 +10,7 @@ env:
   GKE_CLUSTER: terry
   GKE_ZONE: europe-central2-a
   DEPLOYMENT_NAME: webapp-deployment
-  IMAGE: static-site
+  IMAGE: webapp
 
 jobs:
   setup-build-publish-deploy:
